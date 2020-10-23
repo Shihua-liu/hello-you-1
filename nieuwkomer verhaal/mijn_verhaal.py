@@ -2,18 +2,22 @@ import os
 #stuk21
 def sparen():
     print("je denk dat het beter is om te sparen voor dat je verder gaat reizen. voor de komen de jaren werk je 6 dagen in een week maar verdien je heel weinig. uit windelijk ben je om het leven gekomen vanwege te veel werken\n\n\n\nEINDE")
+    exit()
 
 #stuk20
 def gebruiken():
     print("je gebruikt je geld om naar een andere land te komen. je probeert met verschillende vervoer te gaan, maar bij de grens werd je opgepakt vanwege omdat je het land probeert binnen te komen. je zegt dat je zit te vluchten, maar ze geloven je niet. ze hebben je in een gevangenis gegooit en je bent heel erg boos dat ze je niet geloven en dat ze je geen hulp geven.\n\n\n\nEINDE")
+    exit()
 
 #stuk19
 def nederland():
     print("je lift mee met verschillende auto's. je heb hulp gevraagt aan verschillende bestuurders hoe het met de vluchtelingen kamp werkt in nederland. ze hebben het opgezocht en zeiden dat naar de vluchtelingenwerk moesten gaan en dat ze daar verder konnen helpen. jaren later is de inburgerings proceduren gelukt en je kan normaal leven in Nederland.\n\n\n\nEINDE")
+    exit()
 
 #stuk18
 def duitsland():
     print("je probeert mee te liften met verschillende auto's en je slaapt in een slaapzak buiten. uit eindelijk is het je gelukt om in duitsland te komen naar weken lang reizen. je vluchteling procedure duurde sneller dan je dacht. uit eindelijk kan je rustig en normaal leven in duitsland.\n\n\n\nEINDE")
+    exit()
 
 #stuk17
 def blijven():
@@ -56,11 +60,13 @@ def rechterg():
 def verder():
     os.system("cls")
     print("je koos ervoor om door te rijden en gelukkig had je een goede keuze gemaakt, omdat de stad net werd aangevallen. Bij de grens kwam je zonder problemen er door maar toen je bij de grens was bij Turkije zat werd je aangehouden, omdat je illegale spullen had meegenomen van je huis. je vond dat raar en je legt uit dat het in Syrïe heel legaal was, maar de agentan namen dat niet. je werdt naar de gevangenis gestuurd om daar een paar maanden te leven\n\n\n\n WORDT VERVOLGT")
+    exit()
 
 #stuk12
 def stad():
     os.system("cls")
     print("je stopt om wat spullen te kopen zodat verder kan rijden met benodigdheden. Jammer genoeg was het een hele slechte keuze, omdat na 10 minuten ISIS de stad kwam binnen stormen en je was gevangen genomen en vermoord.\n\n\n\nEINDE")
+    exit()
 
 #stuk11
 def bootI():
