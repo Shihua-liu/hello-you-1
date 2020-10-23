@@ -73,9 +73,9 @@ def bootg():
     print("Je vindt dat met de boot iets sneller dan met de auto en je wilt ook niet de risico nemen dat je wordt opgepakt bij de grens. Je heb een kaartje gekocht dicht bij de pier zodat je op een boot kan. Verder op zie je 2 kleine bootjes. Je kan kiezen voor de linker of de rechter.\n\na.linker\nrechter\n")
     ans4 = input()
     if ans4.lower() == "a":
-        linker()
+        linkerg()
     else:
-        rechter()
+        rechterg()
 
 #stuk9
 def auto():
