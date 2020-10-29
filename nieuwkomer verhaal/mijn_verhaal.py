@@ -35,7 +35,7 @@ def blijven():
 
 #stuk16
 def doorgaan():
-    print("je denk dat het handiger is om verder te reizen naar een andere land te vluchten. \nje heb genoeg geld om een paar maanden te overleven. \nje twijvelt om naar Duitsland of naar Nederland te vluchten.\n\na.Nederland\nb.Duitsland")
+    print("je denk dat het handiger is om verder te reizen en naar een andere land te vluchten. \nje heb genoeg geld om een paar maanden te overleven. \nje twijvelt om naar Duitsland of naar Nederland te vluchten.\n\na.Nederland\nb.Duitsland")
     ans9 = input()
     if ans9.lower() == "a":
         nederland()
@@ -131,17 +131,17 @@ def weg_rennen():
 #stuk5
 def aanvallen():
     os.system("cls")
-    print("om 6 uur 's ochtend hebben jullie besloten om het aan te vallen. \nDe eerste paar dagen was het moeilijk omdat hun verdediging erg sterk was, maar uit eindelijk was het gelukt om de stad over te nemen. \nJij en je team zaten gebouwen te checken om te kijken of alles veilig was, maar je zag een man die heel hard naar je toe zat te rennen en riep:'Allah akbar.' \nJe gelukkig bent heel zwaar gewond geraakt en je werd getransporteerd naar de eerste hulp. \n\n\n\n WORDT VERVOLDT")
+    print(" de man was blij dat je had geaccepteerd hij heeft gezegt dat het over een paar weken was omdat je eerst je training moet afmaken. een paar weken later om 6 uur 's ochtend hebben jullie besloten om het aan te vallen. \nDe eerste paar dagen was het moeilijk omdat hun verdediging erg sterk was, maar uit eindelijk was het gelukt om de stad over te nemen. \nJij en je team zaten gebouwen te checken om te kijken of alles veilig was, maar je zag een man die heel hard naar je toe zat te rennen en riep:'Allah akbar.' \nJe gelukkig bent heel zwaar gewond geraakt en je werd getransporteerd naar de eerste hulp. \n\n\n\n WORDT VERVOLDT")
     
 #stuk4
 def weigeren():
     os.system("cls")
-    print("je heb geweigerd en gezegt dat je liever je basis de basis verdedigt. Een paar dagen later werd je basis gebombardeerd en was je jammer genoeg om het leven gekomen. \n\n\n\nEINDE")
+    print("je heb geweigerd en gezegt dat je liever je basis de basis verdedigt. De man begrijpt je keuze, maar was een beetje teleurgestelt. De volgende dag werd je wakker met een melding dat je basis momenteel werd aangevallen. Jullie verdedigen zo hard mogelijk, maat jammer genoeg kreeg jij een kogel in je schouder. Je was zo snel mogelijk naar een dokter gebracht om het eruit te halen en het bloeden laten stoppen. Na 20 minuten was je klaar, maar je moest je gelijk weer terug, omdat verder moest verdedigen. Uren later en ISIS had zich voor nu terug getrokken en jullie vierde dat jullie hadden gewonnen. In de komende jaren krijgen jullie allemaal hulp van Europa en Amerika om ISIS terug te strijden. \n\n\n\nEINDE")
     
 #stuk3
 def vechten():
     os.system("cls")
-    print("Je vraagt aan je buren of zei weten hoe je snel de leger in kan.\nJe buurman gaf je advies om naar hun kamp te gaan verder op in de stad.\nJe zoekt ze op en ze accepteren je. Na een paar weken training werd je in gezet om te vechten tegen ISIS. \nMaanden lang zit je ISIS terug te vechten zonder veel problemen. \nOp een dag had je een keuze om een stad aanvallen dat onder de controle was van ISIS.\nwil je het doen\nja of nee?")
+    print("Je vraagt rond om te kijken hoe je naar de leger kan.\nIedereen zegt dat je neer de leger basis moet gaan, maar dat is 1 uur rijden met je auto.\nNa een uurtje rijden kwam je bij hun basis en ze accepteren je met open armen. De gaven aan dat je eerst een paar weken moet trainen voordat je tegen ISIS mag vechten. \nDe eerste paar weken had je het heel zwaar, maar je wou heel graag je land helpen. \nOp een dag kwam iemand naar je toe en hij gaf je een keuze om met hem en zijn team een stad aanvallen dat onder de controle was van ISIS.\nwil je het doen\nja of nee?")
     ans_dicht = input()
     if ans_dicht.lower == "ja":
         aanvallen()
@@ -158,7 +158,6 @@ def vluchten():
         weg_rennen()
     elif ans1.lower() == "b":
         os.system("cls")
-        print("je probeert jezelf zo snel mogelijk op te geven zodat je tegen ISIS kan vechten. Want je vindt dat ze onnodige dingen doen en dat het je tegen moet protesteren.")
         vechten()
 
 
